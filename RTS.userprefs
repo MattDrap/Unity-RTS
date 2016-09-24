@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\WorldObject\Unit.cs">
+    <Files>
+      <File FileName="Assets\RTS\ConfirmDialog.cs" Line="1" Column="1" />
+      <File FileName="Assets\HUD\HUD.cs" Line="1" Column="1" />
+      <File FileName="Assets\WorldObject\Building.cs" Line="1" Column="1" />
+      <File FileName="Assets\WorldObject\Unit\Villager\Villager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Player\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Player\PlayerUserInput.cs" Line="1" Column="1" />
+      <File FileName="Assets\RTS\ResourceManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\WorldObject\WorldObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\WorldObject\Unit.cs" Line="35" Column="23" />
+      <File FileName="Assets\RTS\WorkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Menu\Scripts\UIPauseMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\HUD\UIHUD.cs" Line="166" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

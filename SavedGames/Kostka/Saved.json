@@ -1,0 +1,376 @@
+{
+  "Sun": {
+    "Position": {
+      "x": 8.0,
+      "y": 16.0,
+      "z": 0.8
+    },
+    "Rotation": {
+      "x": 0.382683426,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.923879564
+    },
+    "Scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "Ground": {
+    "Position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "Scale": {
+      "x": 100.0,
+      "y": 1.0,
+      "z": 100.0
+    }
+  },
+  "Camera": {
+    "Position": {
+      "x": 15.0469007,
+      "y": 10.0,
+      "z": 0.9531025
+    },
+    "Rotation": {
+      "x": 0.277815878,
+      "y": -0.364971668,
+      "z": 0.1150751,
+      "w": 0.8811196
+    },
+    "Scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "Resources": [
+    {
+      "Type": "OreDeposit",
+      "Name": "",
+      "Id": 6,
+      "Position": {
+        "x": 1.18560183,
+        "y": 0.0,
+        "z": 27.9649162
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "Scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "HitPoints": 0,
+      "Attacking": false,
+      "MovingIntoPosition": false,
+      "Aiming": false,
+      "AmountLeft": 1000.0
+    }
+  ],
+  "Players": [
+    {
+      "Username": "Matt",
+      "Human": true,
+      "TeamColor": {
+        "r": 0.0,
+        "g": 0.392156869,
+        "b": 0.784313738,
+        "a": 0.784313738
+      },
+      "Resources": [
+        {
+          "Gold": 100
+        },
+        {
+          "Power": 4
+        },
+        {
+          "Power_Limit": 20
+        }
+      ],
+      "Buildings": [
+        {
+          "Type": "House",
+          "Name": "House",
+          "Id": 0,
+          "Position": {
+            "x": 10.5999994,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HitPoints": 200,
+          "Attacking": false,
+          "MovingIntoPosition": false,
+          "Aiming": false,
+          "NeedsBuilding": false,
+          "SpawnPoint": {
+            "x": 10.7715492,
+            "y": 0.0,
+            "z": 3.65864
+          },
+          "RallyPoint": {
+            "x": 10.7715492,
+            "y": 0.0,
+            "z": 3.65864
+          },
+          "BuildProgress": 0.0,
+          "BuildQueue": []
+        },
+        {
+          "Type": "Barracks",
+          "Name": "Barracks",
+          "Id": 3,
+          "Position": {
+            "x": 0.7,
+            "y": 0.0,
+            "z": 12.4
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.7071068,
+            "z": 0.0,
+            "w": 0.7071068
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HitPoints": 100,
+          "Attacking": false,
+          "MovingIntoPosition": false,
+          "Aiming": false,
+          "NeedsBuilding": false,
+          "SpawnPoint": {
+            "x": 3.35864067,
+            "y": 0.0,
+            "z": 14.3964863
+          },
+          "RallyPoint": {
+            "x": 3.35864067,
+            "y": 0.0,
+            "z": 14.3964863
+          },
+          "BuildProgress": 0.0,
+          "BuildQueue": []
+        }
+      ],
+      "Units": [
+        {
+          "Type": "Knight",
+          "Name": "Knight",
+          "Id": 4,
+          "Position": {
+            "x": 0.7,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HitPoints": 10,
+          "Attacking": false,
+          "MovingIntoPosition": false,
+          "Aiming": false,
+          "Moving": false,
+          "Rotating": false,
+          "Destination": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "TargetRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "AimRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Username": "Computer",
+      "Human": false,
+      "TeamColor": {
+        "r": 0.784313738,
+        "g": 0.196078435,
+        "b": 0.196078435,
+        "a": 0.784
+      },
+      "Resources": [
+        {
+          "Gold": 100
+        },
+        {
+          "Power": 4
+        },
+        {
+          "Power_Limit": 20
+        }
+      ],
+      "Buildings": [
+        {
+          "Type": "House",
+          "Name": "House",
+          "Id": 5,
+          "Position": {
+            "x": -22.1,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HitPoints": 200,
+          "Attacking": false,
+          "MovingIntoPosition": false,
+          "Aiming": false,
+          "NeedsBuilding": false,
+          "SpawnPoint": {
+            "x": -21.92845,
+            "y": 0.0,
+            "z": 3.65864
+          },
+          "RallyPoint": {
+            "x": -21.92845,
+            "y": 0.0,
+            "z": 3.65864
+          },
+          "BuildProgress": 0.0,
+          "BuildQueue": []
+        },
+        {
+          "Type": "Barracks",
+          "Name": "Barracks",
+          "Id": 2,
+          "Position": {
+            "x": -32.0,
+            "y": 0.0,
+            "z": 12.4
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.7071068,
+            "z": 0.0,
+            "w": 0.7071068
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HitPoints": 100,
+          "Attacking": false,
+          "MovingIntoPosition": false,
+          "Aiming": false,
+          "NeedsBuilding": false,
+          "SpawnPoint": {
+            "x": -29.3413563,
+            "y": 0.0,
+            "z": 14.3964863
+          },
+          "RallyPoint": {
+            "x": -29.3413563,
+            "y": 0.0,
+            "z": 14.3964863
+          },
+          "BuildProgress": 0.0,
+          "BuildQueue": []
+        }
+      ],
+      "Units": [
+        {
+          "Type": "Knight",
+          "Name": "Knight",
+          "Id": 1,
+          "Position": {
+            "x": -32.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "HitPoints": 10,
+          "Attacking": false,
+          "MovingIntoPosition": false,
+          "Aiming": false,
+          "Moving": false,
+          "Rotating": false,
+          "Destination": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "TargetRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "AimRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}
